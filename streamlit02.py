@@ -9,3 +9,8 @@ Original file is located at
 
 import streamlit as st
 st.title('챗봇 테스트xxx')
+
+
+prompt = st.chat_input("Say something")
+if prompt:
+    st.write(f"User has sent the following prompt: {prompt}")
